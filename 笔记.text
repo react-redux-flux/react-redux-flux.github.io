@@ -1,0 +1,72 @@
+第五章：组件的生命周期
+init 初始化
+    defaultProps -> getDefaultProps(){return{group:123}} ->React.createClass()
+        defaultProps是类产生的时候而不是实例产生的时候初始化的defaultProps。只能执行一次。defaultProps是公有的所有的实例都会用它。只读的
+
+    state -> getInitialState(){return{}} / ES6 constructor(){this.state = {}} -> new Item()
+        可写的
+
+will即将要  did已经完毕
+mount 加载
+    componentWillMount 加载阶段
+        可以更改state不能操作dom（dom元素还没有渲染在页面）
+
+    (render)
+
+    componentDidMount 加载完成阶段
+        可以操作dom，与其他的库配合，发送ajax从服务器获取数据
+
+update
+    componentWillUpdate(nextProps,nextState)
+
+    (render)
+
+    componentDidUpdate(preProps,preState)
+        外部的重新渲染、内部的状态更新、内部的强制更新，都会重新更新
+        外部重新渲染 -> 外部的顶端组件渲染或另一个父祖级组件渲染
+        内部状态更新 -> this.setState()
+        内部强制更新 -> this.forceUpdate()
+
+    shouldComponentUpdate(nextProps,nextState)
+        默认的情况下只有一行代码返回一个布尔值，用于判断新的props和新的state是否已经真的更新了。当返回值为false时不会执行componentWillUpdate、componentDidUpdate方法否则执行
+        强制更新不会执行shouldComponentUpdate方法，通过setState更新和外部重新调用重新渲染会执行shouldComponentUpdate方法
+
+    componentWillReceiveProps(nextProps)   receive[rɪˈsiv] 收到
+        在更新(准备更新)的阶段对内部的state状态进行更改，只有通过外部渲染才会调用该方法，内部更新不会调用该方法
+
+unmount
+    componentWillUnmount
+        如果不卸载即使组件在界面中已经卸载（消失 -> 删除），函数的内部也始终运行着，非常消耗性能
+
+
+总结：
+    this.setState方式更新会调用shouldComponentUpdate，componentWillUpdate，componentDidUpdate方法
+    this.forceUpdate方式更新会调用componentWillUpdate，componentDidUpdate方法
+    外部更新会调用componentWillReceiveProps、shouldComponentUpdate、componentWillUpdate、componentDidUpdate方法
+
+
+第六章：组件的属性
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

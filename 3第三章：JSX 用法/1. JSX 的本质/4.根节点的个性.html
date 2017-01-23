@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../src/js/react.js"></script>
+    <script src="../../src/js/react-dom.js"></script>
+    <script src="../../src/js/browser.min.js"></script>
+</head>
+<body>
+<div id="test"></div>
+<script type=text/babel>
+    const Item = React.createClass({
+        render(){
+//            return(
+//                <div>
+//                    <span>fsdfd</span>fsdfsd<span></span>43453<span></span><span>534534</span>
+//                </div>
+//            )
+            return(
+                React.createElement('div',null,
+                    React.createElement('div',null,'dsfdsfsdf'),
+                    React.createElement('div',null,'dsfdsfsdf'),
+                    React.createElement('div',null,'dsfdsfsdf'),
+                    React.createElement('div',null,'dsfdsfsdf')
+                )
+            )
+        }
+    })
+
+    var bool = true;
+
+    ReactDOM.render(
+            <ul style={{background:'red'}}>
+                {bool ? <Item /> : <h1>我是h1</h1>}
+            </ul>,
+        document.getElementById('test')
+    )
+
+    //    ReactDOM.render(
+    //        React.createElement('ul',
+    //            {
+    //                style:{background:'yellow'}
+    //            },
+    //            bool ? <Item /> : React.createElement('h1',null,'hello world ,my name is h1')
+    //        ),
+    //        document.getElementById('test')
+    //    )
+</script>
+</body>
+</html>

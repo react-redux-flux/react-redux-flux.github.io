@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../src/js/react.js"></script>
+    <script src="../src/js/react-dom.js"></script>
+    <script src="../src/js/browser.min.js"></script>
+</head>
+<body>
+<div id="container"></div>
+<script type=text/babel>
+
+    const Item = React.createClass({
+        render(){
+            let style = this.props.actived ? {border:"solid 1px green"} : {};
+            return(
+                <li style={style} onClick={this.props.callback} >{this.props.name}</li>
+            )
+        }
+    })
+
+    const List = React.createClass({
+        getInitialState(){
+            return({
+                list:[]
+            })
+        },
+        componentWillMount(){
+            this.state.list = this.props.data.map((item,key) => {
+                return {name:item,actived:false}
+            })
+        },
+        componentDidMount(){
+            setTimeout(() => {
+                this.state.list[1].actived = true;
+                this.forceUpdate();
+            },1000)
+        },
+        callback(item){
+            console.log(item.name)
+        },
+        render(){
+            return(
+                <ul>
+                    {this.state.list.map((item,index) => <Item key={index} callback={this.callback.bind(this,item)} actived={item.actived} name={item.name}/>)}
+                </ul>
+            )
+        }
+    })
+
+    var data = [
+        'aaa',
+        'bbb',
+        'ccc'
+    ]
+
+    ReactDOM.render(
+        <List data={data} />,
+        document.querySelector('#container')
+    )
+</script>
+</body>
+</html>

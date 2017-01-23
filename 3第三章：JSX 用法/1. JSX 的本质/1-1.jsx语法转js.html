@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../src/js/react.js"></script>
+    <script src="../../src/js/react-dom.js"></script>
+    <script src="../../src/js/browser.min.js"></script>
+</head>
+<body>
+<div id='text'></div>
+<script type=text/babel>
+    const Item = React.createClass({
+        render(){
+            return(
+                <li>one one !</li>
+            )
+        }
+    })
+
+//    ReactDOM.render(
+//        <ul>
+//            <Item />
+//            <Item />
+//            <Item />
+//            <Item />
+//            <Item />
+//        </ul>,
+//        document.getElementById('text')
+//    )
+
+    // 将上面的jsx语法翻译成js
+    ReactDOM.render(
+//        React.createElement('ul',null,
+//            React.createElement(Item),
+//            React.createElement(Item)
+//        ),
+        /*或者是*/
+        React.createElement('ul',null,
+            [
+                React.createElement(Item),
+                React.createElement(Item)
+            ]
+        ),
+        document.getElementById('text')
+    )
+</script>
+</body>
+</html>

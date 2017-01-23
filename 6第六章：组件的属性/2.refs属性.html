@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../src/js/react.js"></script>
+    <script src="../src/js/react-dom.js"></script>
+    <script src="../src/js/browser.min.js"></script>
+</head>
+<body>
+<div id="box"></div>
+<script type=text/babel>
+    const Comp = React.createClass({
+        click(){
+            this.refs.button.focus();
+        },
+        componentDidMount(){
+            this.refs.button1.focus();
+        },
+        render(){
+            return(
+                <div>
+                    <input type="text" ref={(dom) => {dom.focus()}} />
+                    <input type="text" ref="button" />
+                    <input type="text" ref="button1" />
+                    <button onClick={this.click}>获取焦点</button>
+                </div>
+            )
+        }
+    })
+    ReactDOM.render(
+        <Comp />,
+        document.querySelector('#box')
+    )
+</script>
+</body>
+</html>

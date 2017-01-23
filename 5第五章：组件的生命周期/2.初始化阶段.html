@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../src/js/react.js"></script>
+    <script src="../src/js/react-dom.js"></script>
+    <script src="../src/js/browser.min.js"></script>
+</head>
+<body>
+<div id="test"></div>
+<script type=text/babel>
+
+    const Item = React.createClass({
+        displayName:'Item',
+        getDefaultProps(){
+            console.log('get default props')
+            return{
+                group:123
+            }
+        },
+        getInitialState(){
+            console.log('get initial state')
+            return{
+                name:'leo'
+            }
+        },
+        render(){
+            return <div>{this.props.group +''+ this.state.name}</div>
+        }
+    })
+
+    ReactDOM.render(
+        <div>
+            <Item></Item><Item></Item><Item></Item><Item></Item>
+        </div>,
+        document.getElementById('test')
+    )
+
+</script>
+</body>
+</html>

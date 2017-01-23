@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../src/js/react.js"></script>
+    <script src="../src/js/react-dom.js"></script>
+    <script src="../src/js/browser.min.js"></script>
+</head>
+<body>
+<div id="box"></div>
+<script type=text/babel>
+    var Form = React.createClass({
+        getInitialState(){
+            return({
+                top:'',
+                left:''
+            })
+        },
+        move(ev){
+            console.log(this.state.left,this.state.top)
+            switch(ev.keyCode){
+                case 37:
+                    this.setState({
+                        left:this.state.left - 2
+                    })
+                    break;
+                case 38:
+                    this.setState({
+                        top:this.state.top - 2
+                    })
+                    break;
+                case 39:
+                    this.setState({
+                        left:this.state.left + 2
+                    })
+                    break;
+                case 40:
+                    this.setState({
+                        top:this.state.top + 2
+                    })
+                    break;
+            }
+        },
+        render(){
+            return(
+                <div style={{position:'relative',width:'500px',height:'500px',background:'red'}} >
+                    <div ref={dom=>{if(dom) dom.focus()}} onKeyDown={this.move} tabIndex={0} style={{position:'absolute',top:this.state.top+'px',left:this.state.left+'px',width:'50px',height:'50px',background:'pink'}} ></div>
+                </div>
+            )
+        }
+    })
+    ReactDOM.render(
+        <Form/>,
+        document.querySelector('#box')
+    )
+</script>
+</body>
+</html>
+<!--有bug当第一次连续向某个方向移动时不是累加而是累乘11-->

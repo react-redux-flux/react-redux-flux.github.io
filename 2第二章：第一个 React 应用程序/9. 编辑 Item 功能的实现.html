@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script src="../src/js/react.js"></script>
+	<script src="../src/js/react-dom.js"></script>
+	<script src="../src/js/browser.min.js"></script>
+	<link rel="stylesheet" href="../src/css/bootstrap.css">
+	<title>Document</title>
+	<style>
+		.container .right{ float:right; margin-left:10px;}
+		.container .edit{ border-width: 0 0 1px 0; outline:none;}
+	</style>
+</head>
+<body>
+	<div id="container" class="container"></div>
+  	<script type="text/babel">
+  		const Item = React.createClass({
+  		    edit(){
+  		        this.props.edit(this.props.id,this.props.value)
+			},
+			delete(){
+  		      	this.props.delete(this.props.id);
+			},
+			render(){
+				return(
+					<li className="list-group-item">
+						{this.props.value}
+						<a href="javascript:;" className="right glyphicon glyphicon-edit" onClick={this.edit}></a>
+						<a href="javascript:;" className="right glyphicon glyphicon-remove" onClick={this.delete}></a>
+					</li>
+				)
+			}
+		})
+		const ItemEdit = React.createClass({
+		    getInitialState(){
+		        return{
+		            value:this.props.value
+				}
+			},
+			changeHandle(event){
+                this.setState({
+                    value:event.target.value
+				})
+			},
+		    remove(){
+		        this.props.remove(this.props.id);
+			},
+			save(){
+		        this.props.save(this.props.id,this.state.value);
+		        console.log(this.state.value)
+			},
+			render(){
+				return(
+					<li className="list-group-item">
+						{this.props.id}
+						<input type="text" className="edit" onChange={this.changeHandle} value={this.state.value}/>
+						<a href="javascript:;" className="glyphicon glyphicon-share" onClick={this.save}></a>
+						<a href="javascript:;" className="glyphicon glyphicon-remove" onClick={this.remove}></a>
+					</li>
+				)
+			}
+		})
+		const List = React.createClass({
+			getInitialState(){
+				return{
+				    key:0,
+					list:new Map(),
+					editList:new Map()
+				}
+			},
+			add(){
+			    const key = ++this.state.key;
+				this.state.editList.set(key,'')
+				this.forceUpdate();  //强制更新
+			},
+			removeItem(id){
+			    this.state.list.delete(id);
+			    this.forceUpdate();
+			},
+			removeItemEdit(id){
+                this.state.editList.delete(id);
+                this.forceUpdate();
+			},
+			save(id,value){
+			    this.state.editList.delete(id);
+			    this.state.list.set(id,value);
+			    this.forceUpdate();
+			},
+			edit(id,value){
+				this.state.list.delete(id);
+				this.state.editList.set(id,value);
+				this.forceUpdate();
+			},
+			delete(id){
+			    this.state.list.delete(id);
+                this.forceUpdate();
+			},
+			render(){
+				const listDOM = [];
+				const editListDOM = [];
+				for(let entity of this.state.list){
+                    console.log(entity ,11111)
+					listDOM.push(<Item remove={this.removeItem} key={entity[0]} id={entity[0]} value={entity[1]} edit={this.edit} delete={this.delete} />);
+				}
+				for(let entity of this.state.editList){
+					editListDOM.push(<ItemEdit remove={this.removeItemEdit} key={entity[0]} id={entity[0]} value={entity[1]} save={this.save} />)
+				}
+				return(
+					<div>
+						<button onClick={this.add} className="btn btn-default">Add</button>
+						<ul className="list-group">
+							{listDOM}
+							{editListDOM}
+						</ul>
+					</div>
+				)
+			}
+		})
+		ReactDOM.render(
+			<List />,
+			document.getElementById('container')
+		);
+  	</script>
+</body>
+</html>

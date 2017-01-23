@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../src/js/react.js"></script>
+    <script src="../src/js/react-dom.js"></script>
+    <script src="../src/js/browser.min.js"></script>
+</head>
+<body>
+    <div id="container"></div>
+    <script type=text/babel>
+       const Comp = React.createClass({
+           getInitialState(){
+               return {
+                   name:''
+               }
+           },
+           changeHandle(event){
+               this.setState({
+                   name:event.target.value
+               });
+               this.props.onChangeName(this.state.name)
+           },
+           render(){
+               return(
+                   <div>
+                       <input type="text" onChange={this.changeHandle} />
+                   </div>
+               )
+           }
+       })
+
+       function changeNameHandle(name){
+           console.log(name)
+       }
+
+        ReactDOM.render(
+            <Comp onChangeName={changeNameHandle}/>,
+            document.querySelector('#container')
+        )
+    </script>
+</body>
+</html>
