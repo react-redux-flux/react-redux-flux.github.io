@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../src/js/react.js"></script>
+    <script src="../src/js/react-with-addons.js"></script>
+    <script src="../src/js/react-dom.js"></script>
+    <script src="../src/js/browser.min.js"></script>
+</head>
+<body>
+<div id="container"></div>
+<script type=text/babel>
+    const LinkedStateMixin = React.addons.LinkedStateMixin;
+    const Comp = React.createClass({
+        mixins:[LinkedStateMixin],
+        getInitialState(){
+            return{
+                name:''
+            }
+        },
+        render(){
+            return(
+                <div>
+                    {this.state.name}
+                    <input type="text" valueLink={this.linkState('name')} />
+                </div>
+            )
+        }
+    })
+
+    ReactDOM.render(
+        < Comp/>,
+        document.querySelector('#container')
+    )
+</script>
+</body>
+</html>

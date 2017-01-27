@@ -1,5 +1,6 @@
 第五章：组件的生命周期
 init 初始化
+    getInitialState初始化
     defaultProps -> getDefaultProps(){return{group:123}} ->React.createClass()
         defaultProps是类产生的时候而不是实例产生的时候初始化的defaultProps。只能执行一次。defaultProps是公有的所有的实例都会用它。只读的
 
@@ -29,7 +30,7 @@ update
 
     shouldComponentUpdate(nextProps,nextState)
         默认的情况下只有一行代码返回一个布尔值，用于判断新的props和新的state是否已经真的更新了。当返回值为false时不会执行componentWillUpdate、componentDidUpdate方法否则执行
-        强制更新不会执行shouldComponentUpdate方法，通过setState更新和外部重新调用重新渲染会执行shouldComponentUpdate方法
+        强制更新跳过shouldComponentUpdate方法直接执行componentWillUpadte、componentDidiUpdate，通过setState更新和外部重新调用重新渲染会执行shouldComponentUpdate方法然后判断是否执行componentWillUpdate、componentDidUpdate
 
     componentWillReceiveProps(nextProps)   receive[rɪˈsiv] 收到
         在更新(准备更新)的阶段对内部的state状态进行更改，只有通过外部渲染才会调用该方法，内部更新不会调用该方法
@@ -44,21 +45,41 @@ unmount
     this.forceUpdate方式更新会调用componentWillUpdate，componentDidUpdate方法
     外部更新会调用componentWillReceiveProps、shouldComponentUpdate、componentWillUpdate、componentDidUpdate方法
 
+第八章：组件之间的通讯
+    父级传给子级 props
+    子级传给父级 callback回调函数
+    eventemitter 事件总线插件
+        eventemitter.js
+        const eventbus = new EventEmitter();  //创建一个事件总线
 
-第六章：组件的属性
+第九章：props和state的搏弈
+小组件尽量做到无状态化
+1.尽量用props，不要有状态
+2.最小化state
+3.props和state能计算出来的值不要存在state里面，要在render中计算
+
+第十章：使用工具，react-with-addons.js
+里面有订阅发布功能、css动画动能、双向数据绑定
+    ReactCSSTransitionGroup 动画库
+        var ReactCSSTransitionGroup = React.addons.CSSTransitionGroup;
+        http://reactjs.cn/react/docs/animation-zh-CN.html
+        可以实现淡入淡出、轮播等效果
+    LinkedStateMixin  双向数据绑定
+        var LinkedStateMixin = React.addons.LinkedStateMixin;
+
+    双向数据绑定的方法
+        1.getInitialState  改变组件状态
+        2.LinkedStateMixin -> react-with-addons.js
+        3.PubSub.subscribe + PubSub.publish -> pubsub.js
 
 
 
-
-
-
-
-
-
-
-
-
-
+system   [ˈsɪstəm]  制度
+synthetic   [sɪnˈθɛtɪk]  合成的
+emitter   [ɪ'mɪtə] 发射器
+signal   [ˈsɪɡnəl]  信号
+example    [ɪgˈzæmpl]  例子
+appear   [əˈpɪr]  表现出场
 
 
 

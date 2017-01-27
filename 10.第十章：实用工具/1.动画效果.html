@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../src/js/react.js"></script>
+    <script src="../src/js/react-with-addons.js"></script>
+    <script src="../src/js/react-dom.js"></script>
+    <script src="../src/js/browser.min.js"></script>
+    <style>
+        .example-enter {
+            opacity: 0.01;
+        }
+
+        .example-enter.example-enter-active {
+            opacity: 1;
+            transition: opacity 500ms ease-in;
+        }
+
+        .example-leave {
+            opacity: 1;
+        }
+
+        .example-leave.example-leave-active {
+            opacity: 0.01;
+            transition: opacity 300ms ease-in;
+        }
+    </style>
+</head>
+<body>
+<div id="container"></div>
+<script type=text/babel>
+    var ReactCSSTransitionGroup = React.addons.CSSTransitionGroup;
+    var TodoList = React.createClass({
+        getInitialState: function() {
+            return {items: ['hello', 'world', 'click', 'me']};
+        },
+        handleAdd: function() {
+            var newItems =
+                this.state.items.concat([prompt('Enter some text')]);
+            this.setState({items: newItems});
+        },
+        handleRemove: function(i) {
+            var newItems = this.state.items.slice();
+            newItems.splice(i, 1);
+            this.setState({items: newItems});
+        },
+        render: function() {
+            var items = this.state.items.map(function(item, i) {
+                return (
+                        <div key={item} onClick={this.handleRemove.bind(this, i)}>
+                            {item}
+                        </div>
+                );
+            }.bind(this));
+            return (
+                    <div>
+                        <button onClick={this.handleAdd}>Add Item</button>
+                        <ReactCSSTransitionGroup transitionName="example" transitionEnterTimeout={500} transitionLeaveTimeout={300}>
+                            {items}
+                        </ReactCSSTransitionGroup>
+                    </div>
+            );
+        }
+    });
+
+    ReactDOM.render(
+        <TodoList />,
+        document.querySelector('#container')
+    )
+</script>
+</body>
+</html>
