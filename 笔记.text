@@ -73,6 +73,25 @@ unmount
         3.PubSub.subscribe + PubSub.publish -> pubsub.js
 
 
+阮一峰flux  http://www.ruanyifeng.com/blog/2016/01/flux.html
+Flux将一个应用分成四个部分。
+View： 视图层
+Action（动作）：视图层发出的消息（比如mouseClick）
+Dispatcher（派发器）：用来接收Actions、执行回调函数
+Store（数据层）：用来存放应用的状态，一旦发生变动，就提醒Views要更新页面
+
+Flux 的最大特点，就是数据的"单向流动"。
+用户访问 View
+View 发出用户的 Action
+Dispatcher 收到 Action，要求 Store 进行相应的更新
+Store 更新后，发出一个"change"事件
+View 收到"change"事件后，更新页面
+
+
+
+
+
+
 
 system   [ˈsɪstəm]  制度
 synthetic   [sɪnˈθɛtɪk]  合成的
@@ -80,7 +99,8 @@ emitter   [ɪ'mɪtə] 发射器
 signal   [ˈsɪɡnəl]  信号
 example    [ɪgˈzæmpl]  例子
 appear   [əˈpɪr]  表现出场
-
+register  [ˈrɛdʒɪstɚ]  注册
+controller  [kənˈtroʊlə(r)]  管理者
 
 
 
