@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8cf308f-ba42-4d92-9525-c18686a7693e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/笔记.text" afterPath="$PROJECT_DIR$/笔记.text" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="笔记.text" pinned="false" current-in-tab="false">
+      <file leaf-file-name="笔记.text" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/笔记.text">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="97" column="22" lean-forward="true" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
+            <state relative-caret-position="66">
+              <caret line="109" column="0" lean-forward="true" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -76,7 +76,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="147">
@@ -155,7 +155,6 @@
         <option value="$PROJECT_DIR$/13.第十三章：FLUX架构/dest/index.js" />
         <option value="$PROJECT_DIR$/13.第十三章：FLUX架构/webpack.config.js" />
         <option value="$PROJECT_DIR$/13.第十三章：FLUX架构/src/Dispatcher.js" />
-        <option value="$PROJECT_DIR$/笔记.text" />
         <option value="$PROJECT_DIR$/13.第十三章：FLUX架构/src/Actions.js" />
         <option value="$PROJECT_DIR$/13.第十三章：FLUX架构/src/List.js" />
         <option value="$PROJECT_DIR$/13.第十三章：FLUX架构/src/Store.js" />
@@ -177,6 +176,7 @@
         <option value="$PROJECT_DIR$/14.第一十五章：Facebook Flux/6.container_test.js" />
         <option value="$PROJECT_DIR$/14.第一十五章：Facebook Flux/webpack.config.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/笔记.text" />
       </list>
     </option>
   </component>
@@ -335,7 +335,7 @@
       <workItem from="1485513693371" duration="1246000" />
       <workItem from="1485515013111" duration="4811000" />
       <workItem from="1485588203108" duration="25915000" />
-      <workItem from="1485825959023" duration="17971000" />
+      <workItem from="1485825959023" duration="19029000" />
     </task>
     <task id="LOCAL-00001" summary="add flux code">
       <created>1485613595965</created>
@@ -358,11 +358,18 @@
       <option name="project" value="LOCAL" />
       <updated>1485855311977</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add index.html">
+      <created>1485855659142</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1485855659142</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157007000" />
+    <option name="totallyTimeSpent" value="158065000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -375,9 +382,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22842261" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.122023806" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -422,7 +429,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add flux code" />
     <MESSAGE value="add facebookFlux code" />
-    <option name="LAST_COMMIT_MESSAGE" value="add facebookFlux code" />
+    <MESSAGE value="add index.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="add index.html" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -682,14 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/笔记.text">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="97" column="22" lean-forward="true" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/14.第一十五章：Facebook Flux/rewrite_store_react_text..js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -788,6 +788,14 @@
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/笔记.text">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="109" column="0" lean-forward="true" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
