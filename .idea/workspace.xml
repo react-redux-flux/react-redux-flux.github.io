@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8cf308f-ba42-4d92-9525-c18686a7693e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/1.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/2.dispatcher_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/3.store_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/4.store_react_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/4.store_react_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/5.reduceStore.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/6.container_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/6.container_test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/reduceStore_build.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/rewrite_store_react_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/rewrite_store_react_test_build.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/rewrite_store_react_text.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/store_react_test_build.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/webpack.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/13.第十三章：FLUX架构/src/main.js" afterPath="$PROJECT_DIR$/13.第十三章：FLUX架构/src/main.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -81,7 +66,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="6.container_test.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="6.container_test.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/14.第一十五章：Facebook Flux/6.container_test.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
@@ -91,13 +76,26 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" column="48" lean-forward="false" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -128,7 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/5第五章：组件的生命周期/4.更新阶段.html" />
         <option value="$PROJECT_DIR$/笔记" />
         <option value="$PROJECT_DIR$/6第六章：组件的属性/1.表单属性.html" />
         <option value="$PROJECT_DIR$/6第六章：组件的属性/2.refs属性.html" />
@@ -179,6 +176,7 @@
         <option value="$PROJECT_DIR$/14.第一十五章：Facebook Flux/6.container_test.html" />
         <option value="$PROJECT_DIR$/14.第一十五章：Facebook Flux/6.container_test.js" />
         <option value="$PROJECT_DIR$/14.第一十五章：Facebook Flux/webpack.config.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -222,34 +220,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="react-redux-flux.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-redux-flux.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-redux-flux.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="14.第一十五章：Facebook Flux" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-redux-flux.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-redux-flux.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="13.第十三章：FLUX架构" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -365,7 +335,7 @@
       <workItem from="1485513693371" duration="1246000" />
       <workItem from="1485515013111" duration="4811000" />
       <workItem from="1485588203108" duration="25915000" />
-      <workItem from="1485825959023" duration="17432000" />
+      <workItem from="1485825959023" duration="17971000" />
     </task>
     <task id="LOCAL-00001" summary="add flux code">
       <created>1485613595965</created>
@@ -374,11 +344,25 @@
       <option name="project" value="LOCAL" />
       <updated>1485613595965</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add facebookFlux code">
+      <created>1485855253828</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1485855253828</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add facebookFlux code">
+      <created>1485855311977</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1485855311977</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156468000" />
+    <option name="totallyTimeSpent" value="157007000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -437,20 +421,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add flux code" />
-    <option name="LAST_COMMIT_MESSAGE" value="add flux code" />
+    <MESSAGE value="add facebookFlux code" />
+    <option name="LAST_COMMIT_MESSAGE" value="add facebookFlux code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/8.第八章：组件之间的通信/2.子与父组件的通讯.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="45" column="104" lean-forward="true" selection-start-line="45" selection-start-column="104" selection-end-line="45" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/笔记" />
     <entry file="file://$PROJECT_DIR$/2第二章：第一个 React 应用程序/6.内部状态数据与添加功能.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -624,6 +602,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="8" column="49" lean-forward="false" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -796,6 +777,17 @@
         <state relative-caret-position="162">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="48" lean-forward="false" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
