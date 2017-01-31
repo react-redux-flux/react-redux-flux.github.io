@@ -2,17 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8cf308f-ba42-4d92-9525-c18686a7693e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.第十三章：FLUX架构/src/Actions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.第十三章：FLUX架构/src/Dispatcher.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/13.第十三章：FLUX架构/src/WebAPI.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/1.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/2.dispatcher_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/3.store_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/4.store_react_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/4.store_react_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/5.reduceStore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/6.container_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/6.container_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/reduceStore_build.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/rewrite_store_react_test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/rewrite_store_react_test_build.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/rewrite_store_react_text.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/store_react_test_build.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/webpack.config.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/13.第十三章：FLUX架构/dest/index.js" afterPath="$PROJECT_DIR$/13.第十三章：FLUX架构/dest/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/13.第十三章：FLUX架构/dest/index.js.map" afterPath="$PROJECT_DIR$/13.第十三章：FLUX架构/dest/index.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/13.第十三章：FLUX架构/index.html" afterPath="$PROJECT_DIR$/13.第十三章：FLUX架构/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/13.第十三章：FLUX架构/src/List.js" afterPath="$PROJECT_DIR$/13.第十三章：FLUX架构/src/List.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/13.第十三章：FLUX架构/src/Store.js" afterPath="$PROJECT_DIR$/13.第十三章：FLUX架构/src/Store.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/13.第十三章：FLUX架构/src/main.js" afterPath="$PROJECT_DIR$/13.第十三章：FLUX架构/src/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/笔记.text" afterPath="$PROJECT_DIR$/笔记.text" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,56 +42,38 @@
       <file leaf-file-name="笔记.text" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/笔记.text">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="102" column="11" lean-forward="false" selection-start-line="102" selection-start-column="11" selection-end-line="102" selection-end-column="11" />
+            <state relative-caret-position="87">
+              <caret line="97" column="22" lean-forward="true" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/13.第十三章：FLUX架构/src/main.js">
+      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/14.第一十五章：Facebook Flux/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-              <folding>
-                <element signature="e#0#40#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="252">
+              <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="List.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/13.第十三章：FLUX架构/src/List.js">
+      <file leaf-file-name="6.container_test.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/14.第一十五章：Facebook Flux/6.container_test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#40#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="168">
+              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Actions.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/13.第十三章：FLUX架构/src/Actions.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="42" column="25" lean-forward="false" selection-start-line="42" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#40#0" expanded="false" />
-                <element signature="e#42#75#0" expanded="false" />
-                <element signature="e#290#328#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebAPI.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/13.第十三章：FLUX架构/src/WebAPI.js">
+      <file leaf-file-name="5.reduceStore.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/14.第一十五章：Facebook Flux/5.reduceStore.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="147">
-              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
               <folding>
                 <element signature="e#0#40#0" expanded="false" />
               </folding>
@@ -93,46 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Store.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/13.第十三章：FLUX架构/src/Store.js">
+      <file leaf-file-name="6.container_test.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/14.第一十五章：Facebook Flux/6.container_test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#40#0" expanded="false" />
-                <element signature="e#227#264#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/13.第十三章：FLUX架构/src/Test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dispatcher.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/13.第十三章：FLUX架构/src/Dispatcher.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-210">
-              <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#40#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/13.第十三章：FLUX架构/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+            <state relative-caret-position="162">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -175,20 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/2第二章：第一个 React 应用程序/8.ItemEditor 保持功能/index.html" />
-        <option value="$PROJECT_DIR$/2第二章：第一个 React 应用程序/9. 编辑 Item 功能的实现/index.html" />
-        <option value="$PROJECT_DIR$/2第二章：第一个 React 应用程序/11. 对第一个应用程序的优化_jq/index.html" />
-        <option value="$PROJECT_DIR$/3第三章：JSX 用法/1. JSX 的本质/app.js" />
-        <option value="$PROJECT_DIR$/3第三章：JSX 用法/1. JSX 的本质/index1.html" />
-        <option value="$PROJECT_DIR$/3第三章：JSX 用法/1. JSX 的本质/index.html" />
-        <option value="$PROJECT_DIR$/3第三章：JSX 用法/1. JSX 的本质/属性与行内样式.html" />
-        <option value="$PROJECT_DIR$/3第三章：JSX 用法/1. JSX 的本质/2.属性与行内样式.html" />
-        <option value="$PROJECT_DIR$/3第三章：JSX 用法/1. JSX 的本质/1.jsx语法转js.html" />
-        <option value="$PROJECT_DIR$/3第三章：JSX 用法/1. JSX 的本质/3. 三元运算与复杂判断.html" />
-        <option value="$PROJECT_DIR$/3第三章：JSX 用法/1. JSX 的本质/根节点的个性.html" />
-        <option value="$PROJECT_DIR$/4第四章：创建组件/2.创建Component的两种方法.html" />
-        <option value="$PROJECT_DIR$/5第五章：组件的生命周期/2.初始化阶段.html" />
-        <option value="$PROJECT_DIR$/5第五章：组件的生命周期/3.装载阶段.html" />
         <option value="$PROJECT_DIR$/5第五章：组件的生命周期/4.更新阶段.html" />
         <option value="$PROJECT_DIR$/笔记" />
         <option value="$PROJECT_DIR$/6第六章：组件的属性/1.表单属性.html" />
@@ -224,8 +163,22 @@
         <option value="$PROJECT_DIR$/13.第十三章：FLUX架构/src/List.js" />
         <option value="$PROJECT_DIR$/13.第十三章：FLUX架构/src/Store.js" />
         <option value="$PROJECT_DIR$/13.第十三章：FLUX架构/src/WebAPI.js" />
-        <option value="$PROJECT_DIR$/13.第十三章：FLUX架构/src/main.js" />
         <option value="$PROJECT_DIR$/13.第十三章：FLUX架构/index.html" />
+        <option value="$PROJECT_DIR$/13.第十三章：FLUX架构/src/main.js" />
+        <option value="$PROJECT_DIR$/14.第一十五章：Facebook Flux/test.js" />
+        <option value="$PROJECT_DIR$/14.第一十五章：Facebook Flux/dispatcher_test.js" />
+        <option value="$PROJECT_DIR$/14.第一十五章：Facebook Flux/store_test.js" />
+        <option value="$PROJECT_DIR$/14.第一十五章：Facebook Flux/store_react_test.js" />
+        <option value="$PROJECT_DIR$/14.第一十五章：Facebook Flux/package.json" />
+        <option value="$PROJECT_DIR$/14.第一十五章：Facebook Flux/rewrite.js" />
+        <option value="$PROJECT_DIR$/14.第一十五章：Facebook Flux/rewrite_store_react_text..js" />
+        <option value="$PROJECT_DIR$/14.第一十五章：Facebook Flux/store_react_test.html" />
+        <option value="$PROJECT_DIR$/14.第一十五章：Facebook Flux/rewrite_store_react_text.js" />
+        <option value="$PROJECT_DIR$/14.第一十五章：Facebook Flux/5.reduceStore.js" />
+        <option value="$PROJECT_DIR$/14.第一十五章：Facebook Flux/4.store_react_test.html" />
+        <option value="$PROJECT_DIR$/14.第一十五章：Facebook Flux/6.container_test.html" />
+        <option value="$PROJECT_DIR$/14.第一十五章：Facebook Flux/6.container_test.js" />
+        <option value="$PROJECT_DIR$/14.第一十五章：Facebook Flux/webpack.config.js" />
       </list>
     </option>
   </component>
@@ -237,6 +190,7 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/13.第十三章：FLUX架构/node_modules" />
+    <handled-path value="$PROJECT_DIR$/14.第一十五章：Facebook Flux/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -259,8 +213,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -283,7 +235,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="13.第十三章：FLUX架构" />
+              <option name="myItemId" value="14.第一十五章：Facebook Flux" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -300,13 +252,11 @@
               <option name="myItemId" value="13.第十三章：FLUX架构" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -317,7 +267,7 @@
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../阮一峰flux" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="nodejs_interpreter_path" value="D:/Windows10/Programm/Environment/Node/node" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -326,11 +276,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Practice\TechnologyStack\React\react-redux\react-redux-flux.github.io\14.第一十五章：Facebook Flux" />
       <recent name="F:\Practice\TechnologyStack\React\react-redux\react-redux-flux.github.io\13.第十三章：FLUX架构" />
       <recent name="F:\Practice\TechnologyStack\React\react-redux\react-redux-flux.github.io\10.第十章：实用工具" />
       <recent name="F:\Practice\TechnologyStack\React\react-redux\react-redux-flux.github.io\8.第八章：组件之间的通信" />
       <recent name="F:\Practice\TechnologyStack\React\react-redux\react-redux-flux\8.第八章：组件之间的通信" />
-      <recent name="F:\Practice\TechnologyStack\React\react-redux\react-redux-flux\7第七章：组件的事件" />
     </key>
   </component>
   <component name="RunManager">
@@ -414,12 +364,21 @@
       <workItem from="1485513526806" duration="5000" />
       <workItem from="1485513693371" duration="1246000" />
       <workItem from="1485515013111" duration="4811000" />
-      <workItem from="1485588203108" duration="15635000" />
+      <workItem from="1485588203108" duration="25915000" />
+      <workItem from="1485825959023" duration="17432000" />
     </task>
+    <task id="LOCAL-00001" summary="add flux code">
+      <created>1485613595965</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1485613595965</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128756000" />
+    <option name="totallyTimeSpent" value="156468000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -432,16 +391,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.116071425" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22842261" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17258064" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -476,55 +435,15 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add flux code" />
+    <option name="LAST_COMMIT_MESSAGE" value="add flux code" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/5第五章：组件的生命周期/5.通过实例代码掌握生命周期.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="16" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="91" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rem.html" />
-    <entry file="file://$PROJECT_DIR$/2第二章：第一个 React 应用程序/8.ItemEditor 保持功能/index.html" />
-    <entry file="file://$PROJECT_DIR$/7第七章：组件的事件/1.键盘事件实例讲解.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7第七章：组件的事件/2.鼠标事件实例讲解.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="987">
-          <caret line="47" column="38" lean-forward="false" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8.第八章：父与子组件的通信/父与子组件的通讯.html" />
-    <entry file="file://$PROJECT_DIR$/8.第八章：组件之间的通信/父与子组件的通讯--自己的想法.html" />
-    <entry file="file://$PROJECT_DIR$/8.第八章：组件之间的通信/父与子组件的通讯.html" />
-    <entry file="file://$PROJECT_DIR$/7第七章：组件的事件/3.自定义事件实例讲解.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2第二章：第一个 React 应用程序/6.内部状态数据与添加功能/index.html" />
-    <entry file="file://$PROJECT_DIR$/2第二章：第一个 React 应用程序/9. 编辑 Item 功能的实现/app.js" />
-    <entry file="file://$PROJECT_DIR$/2第二章：第一个 React 应用程序/11. 对第一个应用程序的优化_jq/app.js" />
-    <entry file="file://$PROJECT_DIR$/2第二章：第一个 React 应用程序/6.内部状态数据与添加功能/css.css" />
-    <entry file="file://$PROJECT_DIR$/8.第八章：组件之间的通信/1.1父与子组件的通讯--自己的想法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="7" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/8.第八章：组件之间的通信/2.子与父组件的通讯.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -656,13 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/13.第十三章：FLUX架构/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="35" column="10" lean-forward="false" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/13.第十三章：FLUX架构/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -693,59 +605,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/13.第十三章：FLUX架构/src/Test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13.第十三章：FLUX架构/src/Dispatcher.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/13.第十三章：FLUX架构/src/Store.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-            <element signature="e#227#264#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/13.第十三章：FLUX架构/src/WebAPI.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13.第十三章：FLUX架构/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/13.第十三章：FLUX架构/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="126">
+          <caret line="8" column="49" lean-forward="false" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/13.第十三章：FLUX架构/src/List.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="147">
+          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
           <folding>
             <element signature="e#0#40#0" expanded="false" />
           </folding>
@@ -754,28 +639,162 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/13.第十三章：FLUX架构/src/Actions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="42" column="25" lean-forward="false" selection-start-line="42" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+        <state relative-caret-position="169">
+          <caret line="35" column="16" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13.第十三章：FLUX架构/src/Store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
           <folding>
             <element signature="e#0#40#0" expanded="false" />
-            <element signature="e#42#75#0" expanded="false" />
-            <element signature="e#290#328#0" expanded="false" />
+            <element signature="e#227#264#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13.第十三章：FLUX架构/src/Test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13.第十三章：FLUX架构/src/Dispatcher.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-167">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14.第一十五章：Facebook Flux/dispatcher_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14.第一十五章：Facebook Flux/store_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14.第一十五章：Facebook Flux/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13.第十三章：FLUX架构/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="25" column="49" lean-forward="true" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/笔记.text">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="102" column="11" lean-forward="false" selection-start-line="102" selection-start-column="11" selection-end-line="102" selection-end-column="11" />
+        <state relative-caret-position="87">
+          <caret line="97" column="22" lean-forward="true" selection-start-line="97" selection-start-column="22" selection-end-line="97" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/13.第十三章：FLUX架构/index.html">
+    <entry file="file://$PROJECT_DIR$/14.第一十五章：Facebook Flux/rewrite_store_react_text..js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="38" column="22" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14.第一十五章：Facebook Flux/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14.第一十五章：Facebook Flux/store_react_test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14.第一十五章：Facebook Flux/store_react_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="43" column="19" lean-forward="true" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14.第一十五章：Facebook Flux/rewrite_store_react_test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14.第一十五章：Facebook Flux/4.store_react_test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14.第一十五章：Facebook Flux/rewrite_store_react_text.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42">
+          <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14.第一十五章：Facebook Flux/6.container_test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14.第一十五章：Facebook Flux/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14.第一十五章：Facebook Flux/5.reduceStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/14.第一十五章：Facebook Flux/6.container_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>

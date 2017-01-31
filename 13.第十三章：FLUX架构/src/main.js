@@ -6,7 +6,7 @@ const React = require('react');
 const ReactDOM = require('react-dom');
 const Dispatcher = require('./Dispatcher')
 
-Dispatcher.use(function log(action,next){
+Dispatcher.use(function log(action,next){   //中间件
     setTimeout(function(){
         console.log('log',action.actionType);
         next();
