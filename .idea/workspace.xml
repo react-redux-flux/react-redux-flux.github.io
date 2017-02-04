@@ -1,9 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8cf308f-ba42-4d92-9525-c18686a7693e" name="Default" comment="">
+    <list default="true" id="d8cf308f-ba42-4d92-9525-c18686a7693e" name="Default" comment="add ico">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/15.第十五章：Reflux/2.创建第一个Action.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/15.第十五章：Reflux/3.触发Action的多种方式.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/15.第十五章：Reflux/4.Action hooks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/15.第十五章：Reflux/5.异步结果.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/15.第十五章：Reflux/6.一次性创建多个Action.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/15.第十五章：Reflux/7.创建一个store.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/15.第十五章：Reflux/8.1.store监听action的方式.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/15.第十五章：Reflux/8.2.store监听action的方式.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/15.第十五章：Reflux/8.store监听action的方式.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/15.第十五章：Reflux/9.React+Reflux小程序.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/15.第十五章：Reflux/9.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/15.第十五章：Reflux/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/15.第十五章：Reflux/webpack.config.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/1.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/2.dispatcher_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/3.store_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/4.store_react_test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/4.store_react_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/5.reduceStore.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/6.container_test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/6.container_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/reduceStore_build.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/rewrite_store_react_test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/rewrite_store_react_test_build.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/rewrite_store_react_text.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/store_react_test_build.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/14.第一十五章：Facebook Flux/webpack.config.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/笔记.text" afterPath="$PROJECT_DIR$/笔记.text" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,7 +45,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
+    <option name="PATCH_PATH" value="F:\Practice\TechnologyStack\React\react-redux\react-redux-flux.github.io" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -27,25 +56,25 @@
       <file leaf-file-name="笔记.text" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/笔记.text">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2289">
-              <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+            <state relative-caret-position="-207">
+              <caret line="125" column="0" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="8.store监听action的方式.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/15.第十五章：Reflux/8.store监听action的方式.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="189">
+              <caret line="9" column="54" lean-forward="false" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/14.第一十五章：Facebook Flux/webpack.config.js">
+        <entry file="file://$PROJECT_DIR$/15.第十五章：Reflux/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
               <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
@@ -54,43 +83,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="6.container_test.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/14.第一十五章：Facebook Flux/6.container_test.html">
+      <file leaf-file-name="9.React+Reflux小程序.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/15.第十五章：Reflux/9.React+Reflux小程序.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="5.reduceStore.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/14.第一十五章：Facebook Flux/5.reduceStore.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            <state relative-caret-position="273">
+              <caret line="33" column="25" lean-forward="false" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
               <folding>
-                <element signature="e#0#40#0" expanded="false" />
+                <element signature="e#40#89#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="6.container_test.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/14.第一十五章：Facebook Flux/6.container_test.js">
+      <file leaf-file-name="9.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/15.第十五章：Reflux/9.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="42">
+              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/15.第十五章：Reflux/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="91" lean-forward="false" selection-start-line="7" selection-start-column="91" selection-end-line="7" selection-end-column="91" />
+            <state relative-caret-position="-6">
+              <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -133,21 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/笔记" />
-        <option value="$PROJECT_DIR$/6第六章：组件的属性/1.表单属性.html" />
-        <option value="$PROJECT_DIR$/6第六章：组件的属性/2.refs属性.html" />
-        <option value="$PROJECT_DIR$/7第七章：组件的事件/1.键盘事件实例讲解.html" />
-        <option value="$PROJECT_DIR$/7第七章：组件的事件/2.鼠标事件实例讲解.html" />
-        <option value="$PROJECT_DIR$/7第七章：组件的事件/2.自定义事件实例讲解.html" />
-        <option value="$PROJECT_DIR$/7第七章：组件的事件/3.自定义事件实例讲解.html" />
-        <option value="$PROJECT_DIR$/8.第八章：父与子组件的通信/父与子组件的通讯.html" />
-        <option value="$PROJECT_DIR$/8.第八章：组件之间的通信/父与子组件的通讯.html" />
-        <option value="$PROJECT_DIR$/8.第八章：组件之间的通信/父与子组件的通讯--自己的想法.html" />
-        <option value="$PROJECT_DIR$/8.第八章：组件之间的通信/2.子与父组件的通讯.html" />
-        <option value="$PROJECT_DIR$/2第二章：第一个 React 应用程序/6.内部状态数据与添加功能/css.css" />
-        <option value="$PROJECT_DIR$/2第二章：第一个 React 应用程序/6.内部状态数据与添加功能.html" />
-        <option value="$PROJECT_DIR$/2第二章：第一个 React 应用程序/11. 对第一个应用程序的优化_jq.html" />
-        <option value="$PROJECT_DIR$/2第二章：第一个 React 应用程序/9. 编辑 Item 功能的实现.html" />
         <option value="$PROJECT_DIR$/2第二章：第一个 React 应用程序/8.ItemEditor 保持功能.html" />
         <option value="$PROJECT_DIR$/2第二章：第一个 React 应用程序/7. ItemEditor 删除功能的.html" />
         <option value="$PROJECT_DIR$/8.第八章：组件之间的通信/3. 事件总线通信.html" />
@@ -182,8 +186,23 @@
         <option value="$PROJECT_DIR$/14.第一十五章：Facebook Flux/6.container_test.html" />
         <option value="$PROJECT_DIR$/14.第一十五章：Facebook Flux/6.container_test.js" />
         <option value="$PROJECT_DIR$/14.第一十五章：Facebook Flux/webpack.config.js" />
-        <option value="$PROJECT_DIR$/笔记.text" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/15.第十五章：Reflux/2.创建第一个Action.js" />
+        <option value="$PROJECT_DIR$/15.第十五章：Reflux/3.触发Action的多种方式.js" />
+        <option value="$PROJECT_DIR$/15.第十五章：Reflux/4.Action hooks.js" />
+        <option value="$PROJECT_DIR$/15.第十五章：Reflux/5.异步结果.js" />
+        <option value="$PROJECT_DIR$/15.第十五章：Reflux/6.一次性创建多个Action.js" />
+        <option value="$PROJECT_DIR$/15.第十五章：Reflux/创建一个store.js" />
+        <option value="$PROJECT_DIR$/15.第十五章：Reflux/7.创建一个store.js" />
+        <option value="$PROJECT_DIR$/15.第十五章：Reflux/8.store监听action的方式.js" />
+        <option value="$PROJECT_DIR$/15.第十五章：Reflux/8.1.store监听action的方式.js" />
+        <option value="$PROJECT_DIR$/15.第十五章：Reflux/8.2.store监听action的方式.js" />
+        <option value="$PROJECT_DIR$/笔记.text" />
+        <option value="$PROJECT_DIR$/15.第十五章：Reflux/9.React+Reflux小程序.html" />
+        <option value="$PROJECT_DIR$/15.第十五章：Reflux/webpack.config.js" />
+        <option value="$PROJECT_DIR$/15.第十五章：Reflux/package.json" />
+        <option value="$PROJECT_DIR$/15.第十五章：Reflux/9.html" />
+        <option value="$PROJECT_DIR$/15.第十五章：Reflux/9.React+Reflux小程序.js" />
       </list>
     </option>
   </component>
@@ -195,13 +214,14 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/13.第十三章：FLUX架构/node_modules" />
-    <handled-path value="$PROJECT_DIR$/14.第一十五章：Facebook Flux/node_modules" />
+    <handled-path value="$PROJECT_DIR$/14.第一十四章：Facebook Flux/node_modules" />
+    <handled-path value="$PROJECT_DIR$/15.第十五章：Reflux/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="253" />
-    <option name="y" value="65" />
-    <option name="width" value="982" />
-    <option name="height" value="649" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -219,6 +239,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -231,9 +252,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-redux-flux.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-redux-flux.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="15.第十五章：Reflux" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-redux-flux.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="react-redux-flux.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="14.第一十四章：Facebook Flux" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -253,11 +301,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Practice\TechnologyStack\React\react-redux\react-redux-flux.github.io\15.第十五章：Reflux" />
       <recent name="F:\Practice\TechnologyStack\React\react-redux\react-redux-flux.github.io\14.第一十五章：Facebook Flux" />
       <recent name="F:\Practice\TechnologyStack\React\react-redux\react-redux-flux.github.io\13.第十三章：FLUX架构" />
       <recent name="F:\Practice\TechnologyStack\React\react-redux\react-redux-flux.github.io\10.第十章：实用工具" />
       <recent name="F:\Practice\TechnologyStack\React\react-redux\react-redux-flux.github.io\8.第八章：组件之间的通信" />
-      <recent name="F:\Practice\TechnologyStack\React\react-redux\react-redux-flux\8.第八章：组件之间的通信" />
     </key>
   </component>
   <component name="RunManager">
@@ -343,7 +391,11 @@
       <workItem from="1485515013111" duration="4811000" />
       <workItem from="1485588203108" duration="25915000" />
       <workItem from="1485825959023" duration="20817000" />
-      <workItem from="1485864736465" duration="449000" />
+      <workItem from="1485864736465" duration="6799000" />
+      <workItem from="1485912728451" duration="13720000" />
+      <workItem from="1486006379611" duration="2084000" />
+      <workItem from="1486173757036" duration="1829000" />
+      <workItem from="1486177213395" duration="3843000" />
     </task>
     <task id="LOCAL-00001" summary="add flux code">
       <created>1485613595965</created>
@@ -401,11 +453,18 @@
       <option name="project" value="LOCAL" />
       <updated>1485858576114</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add ico">
+      <created>1485865211407</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1485865211407</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160302000" />
+    <option name="totallyTimeSpent" value="188128000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -417,26 +476,44 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="253" y="65" width="982" height="649" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1302966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14955357" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275194" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275194" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06451613" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275194" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275194" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36819172" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13983051" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -474,86 +551,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/2第二章：第一个 React 应用程序/6.内部状态数据与添加功能.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-147">
-          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2第二章：第一个 React 应用程序/7. ItemEditor 删除功能的.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2第二章：第一个 React 应用程序/8.ItemEditor 保持功能.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2第二章：第一个 React 应用程序/9. 编辑 Item 功能的实现.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="5" column="57" lean-forward="false" selection-start-line="5" selection-start-column="57" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2第二章：第一个 React 应用程序/11. 对第一个应用程序的优化_jq.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="13" column="65" lean-forward="false" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/eventemitter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8.第八章：组件之间的通信/3. 事件总线通信.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1349">
-          <caret line="70" column="31" lean-forward="false" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8.第八章：组件之间的通信/3.1. 事件总线通信.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10.第十章：实用工具/1.动画效果.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="32" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11.配置模块化开发环境/package.json" />
-    <entry file="file://$PROJECT_DIR$/13.第十三章：FLUX架构/dest/index.html" />
-    <entry file="file://$PROJECT_DIR$/13.第十三章：FLUX架构/.babelrc" />
-    <entry file="file://$PROJECT_DIR$/10.第十章：实用工具/2.双向数据绑定.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="34" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10.第十章：实用工具/1.1动画效果之轮播效果 非视频内容看文档编写、没写完.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="54" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/13.第十三章：FLUX架构/src/index.js" />
     <entry file="file://$PROJECT_DIR$/6第六章：组件的属性/1.表单属性.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -686,45 +683,96 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/14.第一十五章：Facebook Flux/rewrite_store_react_text..js" />
-    <entry file="file://$PROJECT_DIR$/14.第一十五章：Facebook Flux/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/14.第一十五章：Facebook Flux/package.json" />
     <entry file="file://$PROJECT_DIR$/14.第一十五章：Facebook Flux/store_react_test.html" />
     <entry file="file://$PROJECT_DIR$/14.第一十五章：Facebook Flux/store_react_test.js" />
-    <entry file="file://$PROJECT_DIR$/14.第一十五章：Facebook Flux/rewrite_store_react_test.html">
+    <entry file="file://$PROJECT_DIR$/14.第一十五章：Facebook Flux/rewrite_store_react_test.html" />
+    <entry file="file://$PROJECT_DIR$/14.第一十五章：Facebook Flux/4.store_react_test.html" />
+    <entry file="file://$PROJECT_DIR$/14.第一十五章：Facebook Flux/rewrite_store_react_text.js" />
+    <entry file="file://$PROJECT_DIR$/14.第一十五章：Facebook Flux/6.container_test.html" />
+    <entry file="file://$PROJECT_DIR$/14.第一十五章：Facebook Flux/5.reduceStore.js" />
+    <entry file="file://$PROJECT_DIR$/14.第一十五章：Facebook Flux/6.container_test.js" />
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="63">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/14.第一十五章：Facebook Flux/4.store_react_test.html">
+    <entry file="file://$PROJECT_DIR$/14.第一十五章：Facebook Flux/webpack.config.js" />
+    <entry file="file://$PROJECT_DIR$/15.第十五章：Reflux/2.创建第一个Action.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/14.第一十五章：Facebook Flux/rewrite_store_react_text.js">
+    <entry file="file://$PROJECT_DIR$/15.第十五章：Reflux/3.触发Action的多种方式.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-42">
-          <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+        <state relative-caret-position="273">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/14.第一十五章：Facebook Flux/6.container_test.html">
+    <entry file="file://$PROJECT_DIR$/15.第十五章：Reflux/6.一次性创建多个Action.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15.第十五章：Reflux/8.1.store监听action的方式.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="74" lean-forward="false" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15.第十五章：Reflux/7.创建一个store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15.第十五章：Reflux/4.Action hooks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15.第十五章：Reflux/5.异步结果.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15.第十五章：Reflux/8.2.store监听action的方式.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15.第十五章：Reflux/9.React+Reflux小程序.html" />
+    <entry file="file://$PROJECT_DIR$/笔记.text">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-207">
+          <caret line="125" column="0" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/14.第一十五章：Facebook Flux/webpack.config.js">
+    <entry file="file://$PROJECT_DIR$/15.第十五章：Reflux/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
@@ -732,45 +780,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/14.第一十五章：Facebook Flux/5.reduceStore.js">
+    <entry file="file://$PROJECT_DIR$/15.第十五章：Reflux/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="-6">
+          <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/14.第一十五章：Facebook Flux/6.container_test.js">
+    <entry file="file://$PROJECT_DIR$/15.第十五章：Reflux/8.store监听action的方式.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="9" column="54" lean-forward="false" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/笔记.text">
+    <entry file="file://$PROJECT_DIR$/15.第十五章：Reflux/9.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2289">
-          <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+        <state relative-caret-position="42">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/15.第十五章：Reflux/9.React+Reflux小程序.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="91" lean-forward="false" selection-start-line="7" selection-start-column="91" selection-end-line="7" selection-end-column="91" />
-          <folding />
+        <state relative-caret-position="273">
+          <caret line="33" column="25" lean-forward="false" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+          <folding>
+            <element signature="e#40#89#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

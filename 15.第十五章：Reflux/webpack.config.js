@@ -3,7 +3,7 @@ var webpack = require('webpack');
 var path = require('path');
 module.exports = {
     entry:{
-        reduceStore_build:"./6.container_test.js",
+        build:"./9.React+Reflux小程序.js",
     },
     output:{
         path:"./",
