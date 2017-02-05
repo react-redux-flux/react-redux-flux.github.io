@@ -123,6 +123,40 @@
         listenables  监听多个
             store监听多个action时，action的处理函数名默认为action名或者onAction名
 
+第十六章：Redux
+    解决状态多的问题
+        唯一状态对象
+        外部只读
+        通过纯函数更改状态对象
+
+    解决状态对象太大
+        多个纯函数
+        每个函数负责修改一部分
+        最后组合成新的状态对象
+
+    如何开发这样的状态管理工具
+        唯一state
+        只读state
+        注入updater
+        外部可监听数据变化
+
+    const logger = store => next => action =>{}
+    /*等价于*/
+    const logger = function(store){
+        return function(next){
+            return function(action){
+
+            }
+        }
+    }
+
+    Promise  [ˈprɑ:mɪs]   异步函数
+
+
+
+
+
+
 
 
 
