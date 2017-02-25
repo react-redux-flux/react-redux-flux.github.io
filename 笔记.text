@@ -150,12 +150,16 @@
         }
     }
 
-    Promise  [ˈprɑ:mɪs]   异步函数
+    Promise   异步函数
 
+    在reducer处理state时一定不要对原始state进行更改而是要返回一个全新的state，否则会在测试的时候出现很多意想不到的错误
+        方法一：JSON.parse(JSON.stringify(state))
+        方法二：Object.assign({},state,{name:action.name})
 
+    store不是一个对象，只是方法的集合
+    如果函数中有this指向，就不能将函数赋值给一个变量然后再通过调用变量来调用该函数。如果函数中没有this指向则可以（说得有问题）
 
-
-
+    combine 将多个reducers合并import { combineReducers} from ‘redux’;
 
 
 
@@ -177,7 +181,7 @@ method   [ˈmɛθəd]  方法
 many   [ˈmɛni]  许多
 able   [ˈebəl] 有能力的 Abel
 listenable    [ˈlɪsənəbəl] 值得一听的 乐森额
-
+Promise  [ˈprɑ:mɪs]   异步函数
 
 
 

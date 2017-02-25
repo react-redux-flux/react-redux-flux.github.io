@@ -12,7 +12,8 @@ const reducer = (state,action) => {
     }
 }
 
-const store = Redux.createStore(reducer,{name:'leo'}); /*新的状态，初始化状态*/
+const store = Redux.createStore(reducer,{name:'leo'});
+/*reducer处理过的新的状态，action的初始化状态*/
 
 store.subscribe(() => {
     console.log(store.getState())
