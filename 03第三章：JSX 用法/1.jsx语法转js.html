@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../src/js/react.js"></script>
+    <script src="../../src/js/react-dom.js"></script>
+    <script src="../../src/js/browser.min.js"></script>
+</head>
+<body>
+<div id='text'></div>
+<script type=text/babel>
+//    ReactDOM.render(<h1>title</h1>,document.getElementById('text'))
+
+     ReactDOM.render(
+         React.createElement('h1',null,'title'), //<h1></h1>  第一个参数标签指定类型，第二个参数指定属性，第三个参数设置子元素
+         document.getElementById('text')
+     )
+</script>
+</body>
+</html>

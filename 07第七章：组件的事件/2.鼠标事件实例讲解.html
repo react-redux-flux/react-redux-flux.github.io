@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../src/js/react.js"></script>
+    <script src="../src/js/react-dom.js"></script>
+    <script src="../src/js/browser.min.js"></script>
+    <style>
+        #left{ float:left; width:200px; height:300px; background:blueviolet;}
+        #right{ float:left; width:200px; height:300px; background:deeppink;}
+    </style>
+</head>
+<body>
+    <div id="container"></div>
+    <script type=text/babel>
+        const leftDate = new Map;
+        leftDate.set('id01','id01');
+        leftDate.set('id02','id02');
+        leftDate.set('id03','id03');
+        leftDate.set('id04','id04');
+
+        const DND = React.createClass({
+            getInitialState(){
+                return{
+                    dragId:'',
+                    leftDate:this.props.leftDate,
+                    rightDate:new Map
+                }
+            },
+            drag(ev){
+                this.state.dragId = ev.target.id
+            },
+            drapLeftToRight(){
+                var value = this.state.leftDate.get(this.state.dragId);
+                this.state.rightDate.set(this.state.dragId,value);
+                this.state.leftDate.delete(this.state.dragId);
+                this.forceUpdate()
+            },
+            drapRightToLeft(){
+                var value = this.state.rightDate.get(this.state.dragId);
+                this.state.leftDate.set(this.state.dragId,value);
+                this.state.rightDate.delete(this.state.dragId);
+                this.forceUpdate();
+            },
+            render(){
+                var leftDateArr = [];
+                var rightDateArr = [];
+                for(var entries of this.state.leftDate){
+                    leftDateArr.push(<p draggable="true" onDragStart={this.drag} key={entries[0]} id={entries[0]}>{entries[1]}</p>)
+                }
+                for(var entries of this.state.rightDate){
+                    rightDateArr.push(<p draggable="true" onDragStart={this.drag} key={entries[0]} id={entries[0]}>{entries[1]}</p>)
+                }
+                return(
+                    <div>
+                        <div id="left" onDragEnter={e=>e.preventDefault()} onDragOver={e=>e.preventDefault()} onDrag={this.drapLeftToRight}>
+                            {leftDateArr}
+                        </div>
+                        <div id="right" onDragEnter={e=>e.preventDefault()} onDragOver={e=>e.preventDefault()} onDrag={this.drapRightToLeft}>
+                            {rightDateArr}
+                        </div>
+                    </div>
+                )
+            }
+        })
+
+        ReactDOM.render(
+            <DND leftDate={leftDate}/>,
+            document.getElementById('container')
+        );
+    </script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../src/js/react.js"></script>
+    <script src="../src/js/react-dom.js"></script>
+    <script src="../src/js/eventemitter.js"></script>
+    <script src="../src/js/browser.min.js"></script>
+</head>
+<body>
+<div id="container"></div>
+<script type=text/babel>
+//alert( EventEmitter )
+    const eventbus = new EventEmitter();  //创建一个事件总线
+
+    const Comp = React.createClass({
+        getInitialState(){
+//            return{
+//                color:null
+//            }
+            return{
+                colorIndex:0,
+                colors:['yellow','red']
+            }
+        },
+//        getDefaultProps(){
+//            return{
+//                colorIndex:0,
+//                colors:['yellow','red']
+//            }
+//        },
+        componentWillMount(){
+//            this.state.color = this.state.props;
+            eventbus.on('changeColor',(id,color) => {
+                console.log(id,color)
+                if(this.props.id !== id && this.state.colors[this.state.colorIndex] === color){
+                    this.changeColor();
+                }
+            })
+        },
+//        componentWillReceiveProps(nextProps){
+//            if(this.props.color !== nextProps.color){
+//                this.state.color = nextProps.color;
+//            }
+//        },
+        changeColor(){
+            this.setState({
+                colorIndex:this.state.colorIndex ? 0 : 1
+            })
+            setTimeout(() => {
+                eventbus.emit(
+                    'changeColor',
+                    this.props.id,
+                    this.state.colors[this.state.colorIndex]
+                )
+            },1000)
+        },
+        render(){
+            return(
+            <div style={{backgroundColor:this.state.colors[this.state.colorIndex]}}>
+                <button onClick={this.changeColor}>click me</button>
+            </div>
+            )
+        }
+    })
+
+    ReactDOM.render(
+        <div>
+            <Comp id="one" />
+            <Comp id="two"/>
+        </div>,
+        document.querySelector('#container')
+    )
+</script>
+</body>
+</html>

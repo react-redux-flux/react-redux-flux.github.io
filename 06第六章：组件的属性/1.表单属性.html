@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../src/js/react.js"></script>
+    <script src="../src/js/react-dom.js"></script>
+    <script src="../src/js/browser.min.js"></script>
+</head>
+<body>
+<div id="box"></div>
+<script type=text/babel>
+    var Form = React.createClass({
+        getInitialState(){
+            return{
+                textValue:'',
+                checkboxValue:false,
+                radioValue:false,
+                selectValue:'A',
+                selectsValue:['A','B'],
+                textareaValue:''
+            }
+        },
+        changeHandle(ev){
+            this.setState({
+                textValue:ev.target.value
+            })
+        },
+        changeHandleCheckbox(){
+            this.setState({
+                checkboxValue:!this.state.checkboxValue
+            })
+        },
+        changeHandleRadio(){
+            this.setState({
+                radioValue:!this.state.radioValue
+            })
+        },
+        changeHandleSelect(ev){
+            this.setState({
+                selectValue:ev.target.value
+            })
+        },
+        changeHandleSelects(ev){
+            this.setState({
+                selectsValue:ev.target.value
+            })
+        },
+//        changeHandleTextarea(ev){
+//            this.setState({
+//                textareaValue:ev.target.value
+//            })
+//        },
+        render(){
+            return(
+                <form action="">
+                    <input type="text" value={this.state.textValue} onChange={this.changeHandle} />
+                    <input type="checkbox" checked={this.state.checkboxValue} onChange={this.changeHandleCheckbox} />
+                    <input type="radio" checked={this.state.radioValue} onChange={this.changeHandleRadio} />
+                    <select name="" id="" value={this.state.selectValue} onChange={this.changeHandleSelect}>
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="C">C</option>
+                    </select>
+                    <select name="" multiple="multiple" id="" value={this.state.selectsValue} onChange={this.changeHandleSelects}>
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="C">C</option>
+                    </select>
+                    <textarea name="" id="" cols="30" rows="10" defaultValue={this.state.textareaValue}></textarea>
+                </form>
+            )
+        }
+    })
+    ReactDOM.render(
+        <Form/>,
+        document.querySelector('#box')
+    )
+</script>
+</body>
+</html>
