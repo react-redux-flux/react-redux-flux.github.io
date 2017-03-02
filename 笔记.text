@@ -159,9 +159,9 @@
     store不是一个对象，只是方法的集合
     如果函数中有this指向，就不能将函数赋值给一个变量然后再通过调用变量来调用该函数。如果函数中没有this指向则可以（说得有问题）
 
-    combine 将多个reducers合并import { combineReducers} from ‘redux’;
+    combine 将多个reducers合并import { combineReducers} from 'redux';
 
-
+    涉及到异步action时一般把异步action的中间件放在前面(Redux.applyMiddleware(thunk,logger))，异步action并不是一个纯的对象可能是一个函数比如Promise
 
 
 

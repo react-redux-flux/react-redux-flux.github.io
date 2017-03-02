@@ -1,5 +1,5 @@
 const Redux = require('redux');
-const applyMiddleware = Redux.applyMiddleware;
+const applyMiddleware = Redux.applyMiddleware; /*中间件装载器，装载着各种中间件函数*/
 
 const logger = store => nextDispatch => action => {
     console.log('start',action.type);
@@ -10,7 +10,7 @@ const logger = store => nextDispatch => action => {
 
 const createStore = applyMiddleware(logger)(Redux.createStore);
 
-const reducer = function reducer(state={},action) {
+function reducer(state={},action) {
     switch (action.type){
         case "CHANGENAME":
             return {name:action.name};
