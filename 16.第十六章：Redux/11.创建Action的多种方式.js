@@ -48,7 +48,7 @@ const store = Redux.createStore(function(state={},action){
 /*创建Action  方法三*/
 // function createAction(action,dispatch){
 //     return function (opt) {
-//         action = Object.assign({},action,opt,{type:action.type})
+//         action = Object.assign({},action,opt,{type:action.type})  /*{type:action.type}的作用，防止opt中也含有type属性把之前的type属性给覆盖*/
 //         dispatch(action);
 //     }
 // }
@@ -71,8 +71,8 @@ function createActions(actions,dispatch){
         let result = {};
         for(var k in actions){
             result[k] = createAction(actions[k],dispatch)
-            return result;
         }
+        return result;
     }
 }
 let a = {type:'a'};

@@ -163,9 +163,11 @@
 
     涉及到异步action时一般把异步action的中间件放在前面(Redux.applyMiddleware(thunk,logger))，异步action并不是一个纯的对象可能是一个函数比如Promise
 
+    withExtraArgument   添加第三个参数
 
 
-system   [ˈsɪstəm]  制度
+
+system   [ˈsɪstəm]  制度，系统
 synthetic   [sɪnˈθɛtɪk]  合成的
 emitter   [ɪ'mɪtə] 发射器
 signal   [ˈsɪɡnəl]  信号
@@ -182,7 +184,7 @@ many   [ˈmɛni]  许多
 able   [ˈebəl] 有能力的 Abel
 listenable    [ˈlɪsənəbəl] 值得一听的 乐森额
 Promise  [ˈprɑ:mɪs]   异步函数
-
+extra   ['ekstrə]  额外的
 
 
 
