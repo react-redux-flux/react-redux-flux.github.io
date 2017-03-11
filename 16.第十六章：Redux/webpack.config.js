@@ -3,7 +3,7 @@ var webpack = require('webpack');
 var path = require('path');
 module.exports = {
     entry:{
-        build1:"./22.1.React redux让UI和Store相配合没使用react-redux插件.js",
+        build:"./21.React-redux让UI和Store相配合.js",
     },
     output:{
         path:"./",
