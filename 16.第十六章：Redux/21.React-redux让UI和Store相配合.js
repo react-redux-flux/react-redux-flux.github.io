@@ -4,7 +4,7 @@
 const React = require('react');
 const ReactDOM = require('react-dom');
 const Redux = require('redux');
-const {connect,Provide} = require('react-redux');
+const {connect,Provider} = require('react-redux');
 
 function reducer(state={name:'',num:0},action) {
     console.log(state.num)
@@ -58,7 +58,7 @@ function getActions() {
 }
 
 UI = connect(getState,getActions)(UI);
-ReactDOM.render(<Provide store={store}><UI /></Provide>,document.body)
+ReactDOM.render(<Provider store={store}><UI /></Provider>,document.body)
 
 // UI = connect(getState,getActions)(<Provider store={store}><UI/></Provider>)
 //
