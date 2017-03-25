@@ -1,3 +1,6 @@
+/**
+ * Created by Acer on 2017/3/11.
+ */
 /*
  * 步骤：
  * 1.创建react组件
@@ -33,7 +36,7 @@ const actions = {
     changeName(name){
         return{
             type:'CHANGENAME',
-            name
+            payload:{name}
         }
     },
     access(){
@@ -51,8 +54,8 @@ const UI = React.createClass({
             <div>
                 <p>{this.props.name}</p>
                 <p>{this.props.num}</p>
-                <input type="text" onChange = {this.props.changeName = e => e.target.value} />
-                <button onClick = {this.props.access()}> access </button>
+                <input type="text" onChange = {e =>this.props.changeName(e.target.value)} />
+                <button onClick = {this.props.access}> access </button>
             </div>
         )
     }
